@@ -28,5 +28,6 @@ public class ContaTerminal {
                 .concat("conta ");
 
         System.out.println(resultado + numero + " e seu saldo " + saldo + " já está disponível para saque.");
+        scanner.close();
     }
 }
